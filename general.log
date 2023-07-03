@@ -1,0 +1,91 @@
+2022-06-17 09:53:50,002 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-06-17 09:54:56,974 (INFO) - django.utils.autoreload - D:\The Ultimate Django Series Part 3\Code\1- Getting Started\Start\storefront3\storefront\settings\common.py changed, reloading.
+2022-06-17 09:54:58,820 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-06-17 09:55:08,195 (WARNING) - django.request - Not Found: /favicon.ico
+2022-06-17 09:56:43,627 (WARNING) - django.request - Unauthorized: /store/collections/
+2022-06-17 09:56:43,668 (WARNING) - django.request - Forbidden: /store/collections/
+2022-06-17 09:56:43,706 (WARNING) - django.request - Bad Request: /store/collections/
+2022-06-17 09:57:32,218 (INFO) - django.utils.autoreload - D:\The Ultimate Django Series Part 3\Code\1- Getting Started\Start\storefront3\storefront\settings\common.py changed, reloading.
+2022-06-17 09:57:34,176 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-06-17 09:57:44,954 (WARNING) - django.request - Unauthorized: /store/collections/
+2022-06-17 09:57:45,015 (WARNING) - django.request - Forbidden: /store/collections/
+2022-06-17 09:57:45,073 (WARNING) - django.request - Bad Request: /store/collections/
+2022-06-17 09:58:10,586 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-06-17 09:58:25,440 (WARNING) - django.request - Unauthorized: /store/collections/
+2022-06-17 09:58:25,470 (WARNING) - django.request - Forbidden: /store/collections/
+2022-06-17 09:58:25,497 (WARNING) - django.request - Bad Request: /store/collections/
+2022-06-17 15:54:26,107 (INFO) - waitress - Serving on http://0.0.0.0:8000
+2022-06-17 15:54:40,927 (ERROR) - waitress - Exception while serving /
+Traceback (most recent call last):
+  File "C:\Users\User\.virtualenvs\storefront3-QTAtYIGA\lib\site-packages\waitress\channel.py", line 428, in service
+    task.service()
+  File "C:\Users\User\.virtualenvs\storefront3-QTAtYIGA\lib\site-packages\waitress\task.py", line 168, in service
+    self.execute()
+  File "C:\Users\User\.virtualenvs\storefront3-QTAtYIGA\lib\site-packages\waitress\task.py", line 434, in execute
+    app_iter = self.channel.server.application(environ, start_response)
+TypeError: 'module' object is not callable
+2022-06-17 15:58:56,077 (INFO) - waitress - Serving on http://0.0.0.0:8000
+2022-06-17 16:08:11,708 (INFO) - waitress - Serving on http://0.0.0.0:80
+2022-06-17 16:08:37,579 (INFO) - waitress - Serving on http://0.0.0.0:8000
+2022-06-17 16:10:32,479 (INFO) - waitress - Serving on http://0.0.0.0:8000
+2022-06-17 16:13:14,410 (INFO) - waitress - Serving on http://127.0.0.1:8000
+2023-06-29 11:43:32,518 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-06-29 11:43:40,784 (WARNING) - django.request - Not Found: /favicon.ico
+2023-06-29 11:44:07,723 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-06-29 11:44:11,134 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-06-29 11:46:54,041 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-06-29 11:46:58,647 (WARNING) - django.request - Not Found: /favicon.ico
+2023-06-29 11:59:52,836 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-02 19:17:16,903 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-02 19:17:54,726 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-02 19:17:58,717 (WARNING) - django.request - Not Found: /favicon.ico
+2023-07-02 19:21:18,584 (WARNING) - django.request - Unauthorized: /store/customers/
+2023-07-02 19:21:20,718 (WARNING) - django.request - Unauthorized: /store/orders/
+2023-07-02 19:21:22,456 (WARNING) - django.request - Unauthorized: /store/customers/
+2023-07-02 19:22:08,617 (WARNING) - django.request - Unauthorized: /store/orders/
+2023-07-02 19:22:10,160 (WARNING) - django.request - Unauthorized: /store/customers/
+2023-07-02 19:22:12,500 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-07-02 19:25:02,685 (WARNING) - django.request - Not Found: /users
+2023-07-02 19:25:13,789 (WARNING) - django.request - Unauthorized: /auth/users/
+2023-07-02 19:47:42,993 (WARNING) - django.request - Bad Request: /auth/users/
+2023-07-02 19:52:10,314 (WARNING) - django.request - Unauthorized: /auth/users/me/
+2023-07-02 20:28:05,687 (WARNING) - django.request - Unauthorized: /auth/users/
+2023-07-02 20:28:14,582 (WARNING) - django.request - Unauthorized: /auth/users/login/
+2023-07-02 20:28:20,177 (WARNING) - django.request - Not Found: /auth/token
+2023-07-02 20:28:41,584 (WARNING) - django.request - Method Not Allowed: /auth/jwt/create
+2023-07-02 20:29:46,588 (WARNING) - django.request - Unauthorized: /auth/users/
+2023-07-02 20:29:49,226 (WARNING) - django.request - Unauthorized: /auth/users/me/
+2023-07-02 20:30:26,799 (WARNING) - django.request - Unauthorized: /auth/users/me/
+2023-07-02 20:30:28,082 (WARNING) - django.request - Unauthorized: /auth/users/me/
+2023-07-02 20:30:45,593 (WARNING) - django.request - Not Found: /auth/jwt/
+2023-07-02 20:30:49,735 (WARNING) - django.request - Method Not Allowed: /auth/jwt/create
+2023-07-02 20:31:19,600 (WARNING) - django.request - Not Found: /aut/users
+2023-07-02 21:05:18,529 (WARNING) - django.request - Method Not Allowed: /auth/jwt/create
+2023-07-02 21:05:29,017 (WARNING) - django.request - Method Not Allowed: /auth/jwt/create
+2023-07-02 21:05:38,019 (WARNING) - django.request - Method Not Allowed: /auth/jwt/create
+2023-07-02 21:05:38,860 (WARNING) - django.request - Method Not Allowed: /auth/jwt/create
+2023-07-02 21:07:18,448 (WARNING) - django.request - Unauthorized: /auth/users/me/
+2023-07-02 21:29:12,789 (WARNING) - django.request - Not Found: /store/products/`/
+2023-07-02 21:32:49,537 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-07-02 21:33:13,199 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-07-02 21:45:02,790 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-02 21:45:30,189 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-02 21:45:34,120 (WARNING) - django.request - Not Found: /favicon.ico
+2023-07-02 21:45:51,214 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-07-02 21:46:58,808 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-07-02 21:47:16,676 (WARNING) - django.request - Bad Request: /store/orders/
+2023-07-02 21:47:36,621 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-07-02 21:48:00,957 (WARNING) - django.request - Bad Request: /store/orders/
+2023-07-02 21:49:00,714 (WARNING) - django.request - Not Found: /store/products/reviews/
+2023-07-02 21:49:25,943 (WARNING) - django.request - Not Found: /store/products/product-reviews/
+2023-07-02 21:50:22,534 (WARNING) - django.request - Not Found: /store/products/product-reviews/
+2023-07-02 21:50:49,219 (WARNING) - django.request - Not Found: /store/products/645/review
+2023-07-02 21:57:43,388 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-07-02 22:14:40,647 (WARNING) - django.request - Bad Request: /store/orders/
+2023-07-02 22:14:46,869 (WARNING) - django.request - Bad Request: /store/orders/
+2023-07-02 22:15:12,758 (WARNING) - django.request - Bad Request: /store/orders/
+2023-07-02 22:15:23,349 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-07-02 22:19:55,505 (WARNING) - django.request - Not Found: /store/orders/0e6a90dd-625d-4e34-8ce5-c14f4faef16b/
+2023-07-02 22:20:01,610 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-07-02 22:20:27,552 (WARNING) - django.request - Not Found: /store/orders/0e6a90dd-625d-4e34-8ce5-c14f4faef16b/
+2023-07-02 22:21:20,035 (WARNING) - django.request - Bad Request: /store/orders/
